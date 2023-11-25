@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  background-color: rgb(36, 30, 22);     
+}
+.slide-container {
+  display: flex;    
+  flex-direction: column;
+}
+.mainImage {  
+  width: 600px;
+  margin-left: 10px;
+}
+.thumbs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.smallImage {
+  width: 120px;   
+}
+.active {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.smallImage {
+  cursor: pointer;
+} 
+.fade {
+  animation-name: fade-image;
+  animation-duration: 6s;
+ }
+ 
+ @keyframes fade-image {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+ }
