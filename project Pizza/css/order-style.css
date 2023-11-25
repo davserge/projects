@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing:border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, rgba(24, 24, 24, 0.7), rgba(10, 9, 6, 0.6)), url('../images/order_page_bg.jpeg') no-repeat center center fixed; 
+  background-size: cover;
+}
+.order-container {
+  width: 100%;
+}
+section {
+  min-height: 100vh;
+}
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.modal{
+  width: 96%;
+  max-width: 1000px;
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 5px 5px 30px rgba(0,0,0,.3);
+}
+.modal-product{
+  width: 40%;
+  height: 100%;
+  float: left;
+  position: relative;
+  }
+.product{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  }
+.product-slideshow {
+  max-width: 350px;
+  margin: 0 auto;
+  position: relative;
+  }
+.product-slides {
+  display: none;
+  }     
+.slider-dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  position: relative;
+  top: -36px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);        
+  }         
+.slider-dot:hover,
+.active {
+  background-color: rgba(255,255,255,0.8);
+  box-shadow: 0 0 7px rgba(0,0,0,0.6);            
+ }
+
+/* Fading animation */
+.fade {            
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+/*--@keyframes Fade effects--*/
+@keyframes fade {
+0% {opacity: 0.4}
+ 100% {opacity: 1}
+ }
+      
+.product-name{
+color: #111;
+font-size: 1.3em;
+font-weight: 300;
+line-height: 1.5em;
+text-align: center;
+margin-top: -22px;
+ }
+.product-price{
+  font-size: 2.2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color:#bc0000;
+}
+.round-shape{
+  width: 125%;
+  height: 150%;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color:#fab040;
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+  z-index: 1;
+}  
+.modal-info{
+  width: 60%;
+  height: 100%;
+  float: right;
+  position: relative;
+  }
+.modal-info .info{
+  width: 90%;
+  height: 85%;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0%, -50%);
+  }
+h2 {
+  font-size: 2em;
+  margin-left: -50px;
+  color: #f3970d;
+  }
+form .form-list{
+  margin-top: 1.5em;
+  margin-left: 3.5em;
+  }
+form .form-list-row{
+  margin: 1em 0;
+  }
+form label{
+  font-size: 1em;
+  }
+form input, form select{
+   width: 70%;
+   font-size: 0.8em;
+   padding: 0.4em 0;
+   border: none;
+  display: inline-block;
+  border-bottom: solid 2px #999;
+  color:#f3970d;
+  background-color: transparent;
+  transition: all .3s ease;
+}
+form input:focus{
+  border-color: #fab040;
+ }
+form .user .fa-user{
+  color: #999;
+  font-size: 0.8em;
+  }
+form .user input{
+   position: relative;
+   left: -16px;
+   padding-left: 30px;
+  }          
+form .number .fa-credit-card, form .phone-number .fa-phone-alt {
+   color: #999;
+   font-size: 0.8em;
+  }
+form .number input, form .phone-number input{
+   position: relative;
+   left: -20px;
+   padding-left: 30px;
+    }          
+form .date{
+    float: left;
+   }
+form .date input{
+    width: 60px;
+    text-align: center;
+    }
+form .date .year{
+   margin-left: 1.5em;
+    }        
+form .cvc{
+   float: left;
+   margin-left: 6em;
+   text-align: center;
+   }
+form .cvc .fa-question-circle{
+   color: rgb(179, 4, 4);
+   display: inline-block;
+   position: relative;
+   left: 0.75em;
+   }
+form .cvc input{
+   width: 70px;
+   text-align: center;
+  }
+form .checkbox{
+  margin-top: 2em;
+   }
+form .checkbox input{
+  width: auto;
+  }
+form .checkbox span{
+  font-size: 0.8em;
+  }     
+form button{
+  color: #ffffff;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-left: 2.7em;
+  padding: 1em 2.5em;
+  position: absolute;
+  bottom: 0;
+  border: none;
+  border-radius: 3px;
+  background-color: #fab040;
+  box-shadow: 0 0 20px rgba(0,0,0,0.25);
+  transition: all .3s ease;
+  }
+form button:hover{
+  background-color: #f3970d;
+  cursor: pointer;
+  }
+#formtext{
+  display: none;
+  font-size: 1.2em;
+  color: #030302;
+  }
+.animate__animated {
+  --animate-duration: 2s;
+  --animate-delay: 0.9s;
+}
+
+/*--@media section--*/
+
+@media screen and (max-width: 750px) {
+.modal {
+  width: 96%;
+  max-width:700px; 
+  height: 600px;  
+  }
+}
+
+@media screen and (max-width: 450px) {
+.modal {
+  width: 96%;
+  height: 500px;  
+}
+.modal-product {
+  display: none;
+}
+.modal-info {
+  width: 100%;
+  height: 100%;
+  float: none;  
+  }
+}
