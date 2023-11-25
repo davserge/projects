@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #6a83bb;
+    margin: 0;
+}
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 10%;
+}
+.header{
+    font-size: 27px;
+    padding: 15px;
+    background-color: rgb(154, 154, 154);
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.header::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 58px 0 58px;
+    border-color: rgb(154, 154, 154) transparent transparent transparent;
+    position: absolute;
+    top: 85px;
+}
+.line{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+}
+.line::after{
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #FFFFFF;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+.cloud{
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+.text{
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+    position: relative;
+    border-radius: 5px;
+}
+.left{
+    left: 0;
+}
+.right{
+    left: 50%;
+}
+.left::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 15px 15px;
+    border-color: transparent transparent transparent white;
+    top: 12%;
+    right: 26px;
+}
+.right::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent white transparent transparent;
+    top: 12%;
+    left: 26px;
+}
+.cloud::after{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 4px solid orange;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    right: -22px;
+    z-index: 5;
+}
+.right::after{
+    position: absolute;
+    content: '';
+    left: -18px;
+    top: 10%;
+}
+@media screen and (max-width: 960px) {
+    .wrapper {
+        padding: 0 0.4% 20px 0;
+    } 
+    .header{
+        margin: 5px auto;
+        margin-bottom: 30px;
+    }
+    .header::before{
+        border-width: 28px 48px 0 48px;
+        top: 55px;
+        right: 850px;
+        left: -7px;
+    }
+    .line::after{
+        left: 38px;
+    }
+    .cloud{
+        width: 100%;
+    }
+    .text{
+        padding: 10px 20px;
+    }  
+    .left{
+        left: 40px;
+    }
+    .right{
+        left: 40px;
+    }
+    .left::before{
+        border-width: 15px 15px 15px 0;
+        border-color: transparent white transparent transparent;
+        left: 26px;
+    }
+    .cloud::after{
+        left: -20px;
+    }
+    .right::after{
+        left: -20px;
+    }
+}
