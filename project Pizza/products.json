@@ -2,84 +2,84 @@
    {
     "id": 1,
     "name": "Quattro Stagioni",
-    "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_1.png",
+    "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_1.png",
     "price": 20
    },
 
    {
       "id": 2,
       "name": "Montanara",
-      "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_2.png",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_2.png",
       "price": 12
    },
 
    {
       "id": 3,
       "name": "Fattoria",
-      "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_3.png",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_3.png",
       "price": 22
    },
 
    {
       "id": 4,
       "name": "Braccio di Ferro",
-      "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_4.png",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_4.png",
       "price": 15
    },
 
    {
       "id": 5,
       "name": "Prosciutto e Funghi",
-      "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_5.png",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_5.png",
       "price": 28
    },
 
    {
       "id": 6,
       "name": "Americana",
-      "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_7.png",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_7.png",
       "price": 17
    },
 
    {
       "id": 7,
       "name": "Emiliana",
-      "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_8.png",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_8.png",
       "price": 24
    },
 
    {
       "id": 8,
       "name": "Tonno",
-      "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_2.png",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_2.png",
       "price": 19
    },
 
    {
       "id": 9,
       "name": "Romana",
-      "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_4.png",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_4.png",
       "price": 21
    },
 
    {
       "id": 10,
       "name": "Carbonara",
-      "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_1.png",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_1.png",
       "price": 15
    },
 
    {
       "id": 11,
       "name": "Napoletana",
-      "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_5.png",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_5.png",
       "price": 27
    },
 
    {
       "id": 12,
       "name": "Pugliese",
-      "imgage": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_7.png",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_7.png",
       "price": 23
    }
 ]
