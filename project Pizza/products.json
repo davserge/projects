@@ -105,6 +105,22 @@
 
    {
       "id": 14,
+      "name": "Coca-Cola Diet",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/cola-diet.png",
+      "price": 3,
+      "type": "drink"
+   },
+
+   {
+      "id": 15,
+      "name": "Coca-Cola Zero",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/cola-zero.png",
+      "price": 5,
+      "type": "drink"
+   },
+
+   {
+      "id": 16,
       "name": "fanta",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/fanta.png",
       "price": 4,
@@ -112,7 +128,7 @@
    },
 
    {
-      "id": 15,
+      "id": 17,
       "name": "sprite",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/sprite.png",
       "price": 4,
@@ -120,7 +136,7 @@
    },
 
    {
-      "id": 16,
+      "id": 18,
       "name": "Dark beer",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/darkbeer.png",
       "price": 6,
@@ -128,7 +144,7 @@
    },
 
    {
-      "id": 17,
+      "id": 19,
       "name": "Light beer",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/lightbeer.png",
       "price": 6,
