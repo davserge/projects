@@ -3,83 +3,136 @@
     "id": 1,
     "name": "Quattro Stagioni",
     "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_1.png",
-    "price": 20
+    "price": 20,
+    "type": "pizza"
    },
 
    {
       "id": 2,
       "name": "Montanara",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_2.png",
-      "price": 12
+      "price": 12,
+      "type": "pizza"
    },
 
    {
       "id": 3,
       "name": "Fattoria",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_3.png",
-      "price": 22
+      "price": 22,
+      "type": "pizza"
    },
 
    {
       "id": 4,
       "name": "Braccio di Ferro",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_4.png",
-      "price": 15
+      "price": 15,
+      "type": "pizza"
    },
 
    {
       "id": 5,
       "name": "Prosciutto",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_5.png",
-      "price": 28
+      "price": 28,
+      "type": "pizza"
    },
 
    {
       "id": 6,
       "name": "Americana",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_7.png",
-      "price": 17
+      "price": 17,
+      "type": "pizza"
    },
 
    {
       "id": 7,
       "name": "Emiliana",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_8.png",
-      "price": 24
+      "price": 24,
+      "type": "pizza"
    },
 
    {
       "id": 8,
       "name": "Tonno",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_2.png",
-      "price": 19
+      "price": 19,
+      "type": "pizza"
    },
 
    {
       "id": 9,
       "name": "Romana",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_4.png",
-      "price": 21
+      "price": 21,
+      "type": "pizza"
    },
 
    {
       "id": 10,
       "name": "Carbonara",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_1.png",
-      "price": 15
+      "price": 15,
+      "type": "pizza"
    },
 
    {
       "id": 11,
       "name": "Napoletana",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_5.png",
-      "price": 27
+      "price": 27,
+      "type": "pizza"
    },
 
    {
       "id": 12,
       "name": "Pugliese",
       "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/pizza_price_7.png",
-      "price": 23
+      "price": 23,
+      "type": "pizza"
+   },
+
+   {
+      "id": 13,
+      "name": "Coca-Cola",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/cola.png",
+      "price": 4,
+      "type": "drink"
+   },
+
+   {
+      "id": 14,
+      "name": "fanta",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/fanta.png",
+      "price": 4,
+      "type": "drink"
+   },
+
+   {
+      "id": 15,
+      "name": "sprite",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/sprite.png",
+      "price": 4,
+      "type": "drink"
+   },
+
+   {
+      "id": 16,
+      "name": "Dark beer",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/darkbeer.png",
+      "price": 6,
+      "type": "drink"
+   },
+
+   {
+      "id": 17,
+      "name": "Light beer",
+      "image": "https://raw.githubusercontent.com/davserge/projects/main/project%20Pizza/images/lightbeer.png",
+      "price": 6,
+      "type": "drink"
    }
+
 ]
